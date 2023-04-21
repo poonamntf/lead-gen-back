@@ -26,6 +26,7 @@ exports.adminRegister = async (req, res) => {
         if (admin) {
             res.json({
                 statuscode: '201',
+                message:"Successfully Registered",
                 _id: admin._id,
                 name: admin.name,
                 email: admin.email,
@@ -102,7 +103,7 @@ exports.adminDelete = async (req, res) => {
 };
 
 
-exports.addLeads = async (req, res) => {
+exports.uploadLeads = async (req, res) => {
 
 }
 

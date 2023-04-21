@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,5 +20,14 @@
     "mongoose": "^7.0.3",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poonamntf/lead-gen-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/poonamntf/lead-gen-back/issues"
+  },
+  "homepage": "https://github.com/poonamntf/lead-gen-back#readme",
+  "description": ""
 }
